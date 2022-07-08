@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         print(3)
         
         print(45)
+        print("뗑ㅣㅇ")
     }
 
 
