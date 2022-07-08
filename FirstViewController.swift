@@ -11,6 +11,8 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(33)
     }
     
     @IBAction func plusAndMinus(_ sender: Any) {

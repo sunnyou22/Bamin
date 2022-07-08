@@ -260,10 +260,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
-        <!--First View Controller-->
+        <!--View Controller-->
         <scene sceneID="Jx7-xI-wbd">
             <objects>
-                <viewController id="CgA-qo-2KI" customClass="FirstViewController" customModule="DeliveryService" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CgA-qo-2KI" customClass="ViewController" customModule="DeliveryService" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FrR-hX-s8c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
