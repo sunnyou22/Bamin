@@ -9,21 +9,29 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var profile: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var statusMessage: UILabel!
+    @IBOutlet weak var chatWithme: UILabel!
+    @IBOutlet weak var editingProfile: UILabel!
+    @IBOutlet weak var kakaoStory: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-print("다시 만듦")
-        // Do any additional setup after loading the view.
+
+        profile.layer.cornerRadius = 30
+        userName.text = "방선우"
+        statusMessage.text = "안녕하세요. 방선우입니다."
+       
+        isLabelName(chatWithme, to: "나와의 채팅")
+        isLabelName(editingProfile, to: "프로필 편집")
+        isLabelName(kakaoStory, to: "카카오스토리")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//MARK: - 메서드
+    
+    func isLabelName(_ label: UILabel, to name: String) {
+        label.text = name
+        label.textAlignment = .center
     }
-    */
-
 }
