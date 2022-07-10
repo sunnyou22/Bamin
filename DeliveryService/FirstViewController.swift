@@ -19,9 +19,9 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        profile.layer.cornerRadius = 30
-        userName.text = "방선우"
-        statusMessage.text = "안녕하세요. 방선우입니다."
+        profile?.layer.cornerRadius = 30
+        userName?.text = "방선우"
+        statusMessage?.text = "안녕하세요. 방선우입니다."
        
         isLabelName(chatWithme, to: "나와의 채팅")
         isLabelName(editingProfile, to: "프로필 편집")
@@ -30,8 +30,8 @@ class FirstViewController: UIViewController {
     
 //MARK: - 메서드
     
-    func isLabelName(_ label: UILabel, to name: String) {
-        label.text = name
-        label.textAlignment = .center
+    func isLabelName(_ label: UILabel!, to name: String) {
+        label?.text = name
+        label?.textAlignment = .center
     }
 }
