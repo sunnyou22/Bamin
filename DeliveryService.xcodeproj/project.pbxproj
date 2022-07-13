@@ -15,6 +15,7 @@
 		904BFE87287323340043B762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904BFE86287323340043B762 /* Assets.xcassets */; };
 		904BFE8A287323340043B762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904BFE88287323340043B762 /* LaunchScreen.storyboard */; };
 		9085196A2877B57C00410B66 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908519692877B57C00410B66 /* FirstViewController.swift */; };
+		90D437AE287DC796006436DA /* StoryboardReference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D437AD287DC796006436DA /* StoryboardReference.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		904BFE89287323340043B762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904BFE8B287323340043B762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908519692877B57C00410B66 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		90D437AD287DC796006436DA /* StoryboardReference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardReference.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				904BFE81287323330043B762 /* ViewController.swift */,
 				908519692877B57C00410B66 /* FirstViewController.swift */,
 				903EAD91287B207F00E5B6A0 /* melonViewController.swift */,
+				90D437AD287DC796006436DA /* StoryboardReference.storyboard */,
 				904BFE83287323330043B762 /* Main.storyboard */,
 				904BFE86287323340043B762 /* Assets.xcassets */,
 				904BFE88287323340043B762 /* LaunchScreen.storyboard */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				904BFE8A287323340043B762 /* LaunchScreen.storyboard in Resources */,
+				90D437AE287DC796006436DA /* StoryboardReference.storyboard in Resources */,
 				904BFE87287323340043B762 /* Assets.xcassets in Resources */,
 				904BFE85287323330043B762 /* Main.storyboard in Resources */,
 			);
